@@ -7,7 +7,7 @@ import math
 import pathlib
 import os
 
-
+ 
 
 OUTPUT_DIRECTORY = pathlib.Path.cwd() / "results" / "wave_equation"
 if not OUTPUT_DIRECTORY.exists():
